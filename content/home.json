@@ -1,4 +1,9 @@
 {
-  "title": "Give me your tots 🐞",
-  "description": "All the things"
+  "title": "Give me your tots 🦙",
+  "description": "All the things",
+  "suppliers": [
+    {
+      "name": "Hoover"
+    }
+  ]
 }
