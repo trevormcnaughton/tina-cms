@@ -3,7 +3,9 @@
   "description": "All the things",
   "suppliers": [
     {
-      "name": "Hoover"
+      "name": "Hoover",
+      "website": "foo.com",
+      "description": "a description"
     }
   ]
 }

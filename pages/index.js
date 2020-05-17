@@ -14,13 +14,19 @@ export default function Home({ file, preview }) {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Utitled Jewelry Project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">{data.title}</h1>
         <p>{data.description}</p>
+
+        <ul>
+          <li>{data.suppliers[0].name}</li>
+          <li>{data.suppliers[0].website}</li>
+          <li>{data.suppliers[0].description}</li>
+        </ul>
       </main>
       <GlobalStyle />
     </div>

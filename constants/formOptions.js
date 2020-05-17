@@ -10,10 +10,27 @@ export default {
       component: "textarea",
     },
     {
+      label: "Suppliers",
       name: "suppliers",
+      description: "All the suppliers",
+      component: "group",
       fields: [
         {
-          name: "name",
+          label: "Name",
+          name: "supplier-name",
+          description: "Suppliers Name",
+          component: "text",
+        },
+        {
+          label: "Website",
+          name: "website",
+          description: "Suppliers Website",
+          component: "text",
+        },
+        {
+          label: "Description",
+          name: "description",
+          description: "Suppliers description",
           component: "text",
         },
       ],
