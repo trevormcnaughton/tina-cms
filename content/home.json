@@ -1,11 +1,11 @@
 {
-  "title": "Give me your tots 🦙",
-  "description": "All the things",
+  "title": "Untitled Jewelry Project",
+  "description": "It's the project",
   "suppliers": [
     {
       "name": "Hoover",
-      "website": "foo.com",
-      "description": "a description"
+      "website": "https://www.hooverandstrong.com/",
+      "description": "NOTE: List of specific findings that are not made in house and are not certified recycled: <a href=\"[https://www.hooverandstrong.com/non-recycled-items/](https://www.hooverandstrong.com/non-recycled-items/ \"https://www.hooverandstrong.com/non-recycled-items/\")\" View List </a>\n\nTrade only Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label."
     }
   ]
 }
