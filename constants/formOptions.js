@@ -10,28 +10,32 @@ export default {
       component: "textarea",
     },
     {
-      label: "Suppliers",
+      label: "Suppliers List",
       name: "suppliers",
-      description: "All the suppliers",
-      component: "group",
+      component: "group-list",
+      itemProps: (item) => ({
+        key: item.id,
+        label: item.name,
+      }),
+      defaultItem: () => ({
+        name: "New Supplier",
+        id: Math.random().toString(36).substr(2, 9),
+      }),
       fields: [
         {
           label: "Name",
-          name: "supplier-name",
-          description: "Suppliers Name",
+          name: "name",
           component: "text",
         },
         {
           label: "Website",
           name: "website",
-          description: "Suppliers Website",
           component: "text",
         },
         {
           label: "Description",
           name: "description",
-          description: "Suppliers description",
-          component: "text",
+          component: "markdown",
         },
       ],
     },
