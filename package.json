@@ -16,5 +16,8 @@
     "react-tinacms-github": "^0.3.1",
     "styled-components": "^5.1.0",
     "tinacms": "^0.19.3"
+  },
+  "devDependencies": {
+    "hygen-next-tinacms-github": "https://github.com/dwalkr/hygen-next-tinacms-github"
   }
 }
