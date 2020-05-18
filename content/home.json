@@ -9,15 +9,18 @@
       "recycled-products": [
         {
           "name": "Add Product",
-          "id": "zu4zj3ek3",
+          "id": "feglskpyi",
           "item": [
             {
               "materials": [
                 {
                   "name": "Add material",
-                  "id": "hmfo5ef14"
+                  "id": "118ur9uw3",
+                  "metal": "Platinum",
+                  "certification": "Company Claim"
                 }
-              ]
+              ],
+              "product-name": "Wire"
             }
           ]
         }
