@@ -22,11 +22,13 @@ export default function Home({ file, preview }) {
         <h1 className="title">{data.title}</h1>
         <p>{data.description}</p>
 
-        <ul>
-          <li>{data.suppliers[0].name}</li>
-          <li>{data.suppliers[0].website}</li>
-          <li>{data.suppliers[0].description}</li>
-        </ul>
+        {data.suppliers.map((supplier) => (
+          <ul>
+            <li>{supplier.name}</li>
+            <li>{supplier.website}</li>
+            <li>{supplier.description}</li>
+          </ul>
+        ))}
       </main>
       <GlobalStyle />
     </div>
