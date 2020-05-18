@@ -5,7 +5,23 @@
     {
       "name": "Hoover",
       "website": "https://www.hooverandstrong.com/",
-      "description": "NOTE: List of specific findings that are not made in house and are not certified recycled: <a href=\"[https://www.hooverandstrong.com/non-recycled-items/](https://www.hooverandstrong.com/non-recycled-items/ \"https://www.hooverandstrong.com/non-recycled-items/\")\" View List </a>\n\nTrade only Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label."
+      "description": "NOTE: List of specific findings that are not made in house and are not certified recycled: <a href=\"[https://www.hooverandstrong.com/non-recycled-items/](https://www.hooverandstrong.com/non-recycled-items/ \"https://www.hooverandstrong.com/non-recycled-items/\")\" View List </a>\n\nTrade only Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label.",
+      "recycled-products": [
+        {
+          "name": "Add Product",
+          "id": "zu4zj3ek3",
+          "item": [
+            {
+              "materials": [
+                {
+                  "name": "Add material",
+                  "id": "hmfo5ef14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
