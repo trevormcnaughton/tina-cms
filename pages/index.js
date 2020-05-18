@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { getGithubPreviewProps, parseJson } from "next-tinacms-github";
+import ReactMarkdown from "react-markdown";
 import {
   useGithubJsonForm,
   useGithubToolbarPlugins,
@@ -9,6 +10,7 @@ import formOptions from "../constants/formOptions";
 import styled from "styled-components";
 
 const List = styled.ul`
+  width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
   list-style: none;
@@ -20,11 +22,19 @@ const Item = styled.li`
   padding: 0;
 `;
 
+const Title = styled.h2`
+  margin: 0;
+  font-weight: bold;
+`;
+
+const Website = styled.a`
+  text-decoration: none;
+  color: #2296fe;
+`;
+
 export default function Home({ file, preview }) {
   const [data, form] = useGithubJsonForm(file, formOptions);
-  useGithubToolbarPlugins();
-
-  console.log("$$$$$$", data);
+  // useGithubToolbarPlugins();
 
   return (
     <div className="container">
@@ -39,11 +49,31 @@ export default function Home({ file, preview }) {
 
         {data.suppliers.map((supplier) => (
           <List>
-            <Item>{supplier.name}</Item>
-            <Item>{supplier.website}</Item>
-            <Item>{supplier.description}</Item>
+            <Item>
+              <Title>{supplier.name}</Title>
+            </Item>
+            <Item>
+              <Website href={supplier.website}>{supplier.website}</Website>
+            </Item>
+            <Item>
+              <ReactMarkdown source={supplier.description} />
+            </Item>
 
+            {supplier.recycledProducts && <h3>Recycled Products</h3>}
             {supplier.recycledProducts?.map((p) => (
+              <List>
+                <Item>{p.productName}</Item>
+                {p.materials?.map((mat) => (
+                  <List>
+                    <Item>{mat.metal}</Item>
+                    <Item>{mat.certification}</Item>
+                  </List>
+                ))}
+              </List>
+            ))}
+
+            {supplier.artisanalProducts && <h3>Artisanal Products</h3>}
+            {supplier.artisanalProducts?.map((p) => (
               <List>
                 <Item>{p.productName}</Item>
                 {p.materials?.map((mat) => (
