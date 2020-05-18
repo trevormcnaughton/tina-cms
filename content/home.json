@@ -1,6 +1,6 @@
 {
   "title": "Untitled Jewelry Project",
-  "description": "It's the project",
+  "description": "It's the project that is cool.",
   "suppliers": [
     {
       "name": "Hoover",
@@ -41,6 +41,25 @@
         }
       ],
       "recycledProducts": [
+        {
+          "name": "Add Product",
+          "id": "dt3t6k9zh",
+          "productName": "Tubing",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "jbfwzw68m",
+              "certification": "Third-Party Certified",
+              "metal": "Palladium"
+            },
+            {
+              "name": "Add material",
+              "id": "ttci7e4mt",
+              "metal": "Gold",
+              "certification": "Company Claim"
+            }
+          ]
+        },
         {
           "name": "Add Product",
           "id": "a14r6dyza",
