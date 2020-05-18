@@ -45,7 +45,7 @@ export default {
           component: "group-list",
           itemProps: (item) => ({
             key: item.id,
-            label: item.name,
+            label: item.productName,
           }),
           defaultItem: () => ({
             name: "Add Product",
@@ -59,7 +59,7 @@ export default {
               fields: [
                 {
                   label: "Name",
-                  name: "product-name",
+                  name: "productName",
                   component: "select",
                   options: [
                     "Chain",
@@ -77,7 +77,7 @@ export default {
                   component: "group-list",
                   itemProps: (item) => ({
                     key: item.id,
-                    label: item.name,
+                    label: item.metal,
                   }),
                   defaultItem: () => ({
                     name: "Add material",
@@ -88,13 +88,23 @@ export default {
                       label: "Certification",
                       name: "certification",
                       component: "select",
-                      options: ["Third-Party Certified", "Company Claim"],
+                      options: [
+                        "Select Certification...",
+                        "Third-Party Certified",
+                        "Company Claim",
+                      ],
                     },
                     {
                       label: "Metal",
                       name: "metal",
                       component: "select",
-                      options: ["Gold", "Silver", "Platinum", "Palladium"],
+                      options: [
+                        "Select Certification...",
+                        "Gold",
+                        "Silver",
+                        "Platinum",
+                        "Palladium",
+                      ],
                     },
                   ],
                 },
