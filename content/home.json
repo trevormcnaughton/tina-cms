@@ -39,6 +39,21 @@
             }
           ]
         }
+      ],
+      "recycledProducts": [
+        {
+          "name": "Add Product",
+          "id": "sitg3j77z",
+          "productName": "Chain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "t4tsiu9rb",
+              "metal": "Gold",
+              "certification": "Company Claim"
+            }
+          ]
+        }
       ]
     }
   ]
