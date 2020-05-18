@@ -20,7 +20,8 @@
                   "certification": "Third-Party Certified"
                 }
               ],
-              "product-name": "Findings"
+              "product-name": "Findings",
+              "productName": "Sheet"
             }
           ]
         }
