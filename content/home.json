@@ -22,6 +22,21 @@
               ],
               "productName": "Sheet"
             }
+          ],
+          "productName": "Chain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "ahu7moqsq",
+              "metal": "Silver",
+              "certification": "Third-Party Certified"
+            },
+            {
+              "name": "Add material",
+              "id": "69mx17qzs",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
           ]
         }
       ]
