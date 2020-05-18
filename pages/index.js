@@ -6,10 +6,25 @@ import {
 } from "react-tinacms-github";
 import { GlobalStyle } from "./style";
 import formOptions from "../constants/formOptions";
+import styled from "styled-components";
+
+const List = styled.ul`
+  padding: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.08);
+`;
+
+const Item = styled.li`
+  padding: 0;
+`;
 
 export default function Home({ file, preview }) {
   const [data, form] = useGithubJsonForm(file, formOptions);
   useGithubToolbarPlugins();
+
+  console.log("$$$$$$", data);
 
   return (
     <div className="container">
@@ -23,11 +38,23 @@ export default function Home({ file, preview }) {
         <p>{data.description}</p>
 
         {data.suppliers.map((supplier) => (
-          <ul>
-            <li>{supplier.name}</li>
-            <li>{supplier.website}</li>
-            <li>{supplier.description}</li>
-          </ul>
+          <List>
+            <Item>{supplier.name}</Item>
+            <Item>{supplier.website}</Item>
+            <Item>{supplier.description}</Item>
+
+            {supplier.recycledProducts?.map((p) => (
+              <List>
+                <Item>{p.productName}</Item>
+                {p.materials?.map((mat) => (
+                  <List>
+                    <Item>{mat.metal}</Item>
+                    <Item>{mat.certification}</Item>
+                  </List>
+                ))}
+              </List>
+            ))}
+          </List>
         ))}
       </main>
       <GlobalStyle />

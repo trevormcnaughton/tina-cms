@@ -41,11 +41,12 @@ export default {
         },
         {
           label: "Recycled Products",
-          name: "recycled-products",
+          name: "recycledProducts",
           component: "group-list",
           itemProps: (item) => ({
             key: item.id,
             label: item.productName,
+            name: item.productName,
           }),
           defaultItem: () => ({
             name: "Add Product",
@@ -53,59 +54,53 @@ export default {
           }),
           fields: [
             {
-              label: "Product",
-              name: "item",
+              label: "Name",
+              name: "productName",
+              component: "select",
+              options: [
+                "Select product type...",
+                "Chain",
+                "Sheet",
+                "Wire",
+                "Tubing",
+                "Casting Grain",
+                "Findings",
+                "Mountings",
+              ],
+            },
+            {
+              label: "Materials",
+              name: "materials",
               component: "group-list",
+              itemProps: (item) => ({
+                key: item.id,
+                label: item.metal,
+              }),
+              defaultItem: () => ({
+                name: "Add material",
+                id: Math.random().toString(36).substr(2, 9),
+              }),
               fields: [
                 {
-                  label: "Name",
-                  name: "productName",
+                  label: "Metal",
+                  name: "metal",
                   component: "select",
                   options: [
-                    "Chain",
-                    "Sheet",
-                    "Wire",
-                    "Tubing",
-                    "Casting Grain",
-                    "Findings",
-                    "Mountings",
+                    "Select metal...",
+                    "Gold",
+                    "Silver",
+                    "Platinum",
+                    "Palladium",
                   ],
                 },
                 {
-                  label: "Materials",
-                  name: "materials",
-                  component: "group-list",
-                  itemProps: (item) => ({
-                    key: item.id,
-                    label: item.metal,
-                  }),
-                  defaultItem: () => ({
-                    name: "Add material",
-                    id: Math.random().toString(36).substr(2, 9),
-                  }),
-                  fields: [
-                    {
-                      label: "Certification",
-                      name: "certification",
-                      component: "select",
-                      options: [
-                        "Select Certification...",
-                        "Third-Party Certified",
-                        "Company Claim",
-                      ],
-                    },
-                    {
-                      label: "Metal",
-                      name: "metal",
-                      component: "select",
-                      options: [
-                        "Select Certification...",
-                        "Gold",
-                        "Silver",
-                        "Platinum",
-                        "Palladium",
-                      ],
-                    },
+                  label: "Certification",
+                  name: "certification",
+                  component: "select",
+                  options: [
+                    "Select Certification...",
+                    "Third-Party Certified",
+                    "Company Claim",
                   ],
                 },
               ],

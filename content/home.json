@@ -6,7 +6,7 @@
       "name": "Hoover",
       "website": "https://www.hooverandstrong.com/",
       "description": "NOTE: List of specific findings that are not made in house and are not certified recycled: <a href=\"[https://www.hooverandstrong.com/non-recycled-items/](https://www.hooverandstrong.com/non-recycled-items/ \"https://www.hooverandstrong.com/non-recycled-items/\")\" View List </a>\n\nTrade only Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label.",
-      "recycled-products": [
+      "recycledProducts": [
         {
           "name": "Add Product",
           "id": "feglskpyi",
@@ -36,59 +36,6 @@
               "id": "69mx17qzs",
               "metal": "Gold",
               "certification": "Third-Party Certified"
-            }
-          ]
-        }
-      ],
-      "recycledProducts": [
-        {
-          "name": "Add Product",
-          "id": "dt3t6k9zh",
-          "productName": "Tubing",
-          "materials": [
-            {
-              "name": "Add material",
-              "id": "jbfwzw68m",
-              "certification": "Third-Party Certified",
-              "metal": "Palladium"
-            },
-            {
-              "name": "Add material",
-              "id": "ttci7e4mt",
-              "metal": "Gold",
-              "certification": "Company Claim"
-            }
-          ]
-        },
-        {
-          "name": "Add Product",
-          "id": "a14r6dyza",
-          "productName": "Sheet",
-          "materials": [
-            {
-              "name": "Add material",
-              "id": "fmnp9xul1",
-              "metal": "Platinum",
-              "certification": "Third-Party Certified"
-            }
-          ]
-        },
-        {
-          "name": "Add Product",
-          "id": "sitg3j77z",
-          "productName": "Chain",
-          "materials": [
-            {
-              "name": "Add material",
-              "id": "7ffriyxy3",
-              "metal": "Gold",
-              "certification": "Third-Party Certified"
-            },
-            {
-              "name": "Add material",
-              "id": "t4tsiu9rb",
-              "metal": "Gold",
-              "certification": "Company Claim"
             }
           ]
         }
