@@ -7,21 +7,7 @@
       "website": "stuller.com",
       "description": "Stuller has some good stuff",
       "id": "cob7apb50",
-      "recycledProducts": [
-        {
-          "name": "Add Product",
-          "id": "kgbfhvsu4",
-          "productName": "Wire",
-          "materials": [
-            {
-              "name": "Add material",
-              "id": "w83bdj560",
-              "metal": "Gold",
-              "certification": "Third-Party Certified"
-            }
-          ]
-        }
-      ]
+      "recycledProducts": []
     },
     {
       "name": "Fairsources",
