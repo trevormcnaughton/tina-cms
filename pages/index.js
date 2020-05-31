@@ -5,7 +5,7 @@ import {
   useGithubJsonForm,
   useGithubToolbarPlugins,
 } from "react-tinacms-github";
-import { GlobalStyle } from "./style";
+import { GlobalStyle } from "../components/style";
 import formOptions from "../constants/formOptions";
 import styled from "styled-components";
 
