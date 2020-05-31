@@ -1,10 +1,34 @@
 import App from "next/app";
+import styled from "styled-components";
 import { TinaCMS, TinaProvider } from "tinacms";
 import {
   useGithubEditing,
   GithubClient,
   TinacmsGithubProvider,
 } from "react-tinacms-github";
+
+const Header = styled.header`
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  width: 100%;
+  padding: 0 1.5rem;
+`;
+
+const Logo = styled.div`
+  font-weight: bold;
+`;
+
+const Edit = styled.button`
+  background: #efefef;
+  appearance: 0;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-left: auto;
+`;
 
 export default class Site extends App {
   constructor(props) {
@@ -53,7 +77,11 @@ export default class Site extends App {
           {/**
            * 5. Add a button for entering Preview/Edit Mode
            */}
-          <EditLink editMode={pageProps.preview} />
+
+          <Header>
+            <Logo>Untitled Jewelry Project</Logo>
+            <EditLink editMode={pageProps.preview} />
+          </Header>
           <Component {...pageProps} />
         </TinacmsGithubProvider>
       </TinaProvider>
@@ -77,8 +105,8 @@ export const EditLink = ({ editMode }) => {
   const github = useGithubEditing();
 
   return (
-    <button onClick={editMode ? github.exitEditMode : github.enterEditMode}>
+    <Edit onClick={editMode ? github.exitEditMode : github.enterEditMode}>
       {editMode ? "Exit Edit Mode" : "Edit This Site"}
-    </button>
+    </Edit>
   );
 };

@@ -1,14 +1,6 @@
 export default {
-  label: "Home Page",
+  label: "Suppliers",
   fields: [
-    {
-      name: "title",
-      component: "text",
-    },
-    {
-      name: "description",
-      component: "textarea",
-    },
     {
       label: "Suppliers List",
       name: "suppliers",

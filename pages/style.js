@@ -2,7 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 // Get dis outta here
 export const GlobalStyle = createGlobalStyle`
-body, html { width: 100%; height: 100%; }
+:root {
+  --tina-sidebar-width: 500px;
+}
+* {box-sizing: border-box;}
+body, html { width: 100%; height: 100%; padding: 0; margin: 0; }
 body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   font-size: 16px;
@@ -10,24 +14,6 @@ body {
   color: #3A3B3C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 footer {

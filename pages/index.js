@@ -32,21 +32,28 @@ const Website = styled.a`
   color: #2296fe;
 `;
 
+const Container = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
+const Content = styled.div`
+  max-width: 60rem;
+  margin: 0 auto;
+`;
+
 export default function Home({ file, preview }) {
   const [data, form] = useGithubJsonForm(file, formOptions);
   // useGithubToolbarPlugins();
 
   return (
-    <div className="container">
+    <Container>
       <Head>
         <title>Utitled Jewelry Project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="title">{data.title}</h1>
-        <p>{data.description}</p>
-
+      <Content>
         {data.suppliers.map((supplier) => (
           <List>
             <Item>
@@ -86,9 +93,9 @@ export default function Home({ file, preview }) {
             ))}
           </List>
         ))}
-      </main>
+      </Content>
       <GlobalStyle />
-    </div>
+    </Container>
   );
 }
 
