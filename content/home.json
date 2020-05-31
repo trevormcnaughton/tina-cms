@@ -3,13 +3,6 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
-      "name": "Stuller",
-      "website": "stuller.com",
-      "description": "Stuller has some good stuff",
-      "id": "cob7apb50",
-      "recycledProducts": []
-    },
-    {
       "name": "Fairsources",
       "website": "http://fairsources.com/",
       "description": " Fairtrade & Fairmined certification\n\n**Trade Only**",
@@ -35,6 +28,13 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Stuller",
+      "website": "stuller.com",
+      "description": "Stuller has some good stuff",
+      "id": "cob7apb50",
+      "recycledProducts": []
     },
     {
       "name": "Hoover & Strong",
