@@ -3,6 +3,27 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
+      "name": "Stuller",
+      "website": "stuller.com",
+      "description": "Stuller has some good stuff",
+      "id": "cob7apb50",
+      "recycledProducts": [
+        {
+          "name": "Add Product",
+          "id": "kgbfhvsu4",
+          "productName": "Wire",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "w83bdj560",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Fairsources",
       "website": "http://fairsources.com/",
       "description": " Fairtrade & Fairmined certification\n\n**Trade Only**",
