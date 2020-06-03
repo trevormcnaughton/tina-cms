@@ -3,6 +3,12 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
+      "name": "Rio Grande",
+      "website": "www.riogrande.com",
+      "description": "**Trade and Retail**\n\nSome gold and silver products are certified via Responsible Jewelry Council provenance claim. Recycling symbol next to some items. ",
+      "id": "cgmtggo5m"
+    },
+    {
       "name": "Fairsources",
       "website": "http://fairsources.com/",
       "description": "**Trade Only**",
