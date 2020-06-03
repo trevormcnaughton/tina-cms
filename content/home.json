@@ -10,6 +10,19 @@
       "recycledProducts": [
         {
           "name": "Add Product",
+          "id": "8gksxe53d",
+          "productName": "Sheet",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "gkos6bglj",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
+          ]
+        },
+        {
+          "name": "Add Product",
           "id": "0ygsak322",
           "productName": "Casting Grain",
           "materials": [
