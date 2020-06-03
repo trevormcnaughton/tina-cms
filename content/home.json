@@ -41,6 +41,12 @@
           "materials": [
             {
               "name": "Add material",
+              "id": "a830f4o2d",
+              "metal": "Silver",
+              "certification": "Third-Party Certified"
+            },
+            {
+              "name": "Add material",
               "id": "tkc5d0jlb",
               "metal": "Gold",
               "certification": "Third-Party Certified"
