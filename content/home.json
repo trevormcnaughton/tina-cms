@@ -110,6 +110,21 @@
             }
           ]
         }
+      ],
+      "artisanalProducts": [
+        {
+          "name": "Add Product",
+          "id": "26vb9dvzp",
+          "productName": "Casting Grain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "jyzmfcffs",
+              "metal": "Gold",
+              "certification": "Fairtrade"
+            }
+          ]
+        }
       ]
     }
   ]
