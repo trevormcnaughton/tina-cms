@@ -3,6 +3,27 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
+      "name": "Riva Manufacturing",
+      "website": "https://rivaprecision.com/",
+      "description": "**Trade only**",
+      "id": "5rig9ivu5",
+      "artisanalProducts": [
+        {
+          "name": "Add Product",
+          "id": "1ujp66nmp",
+          "productName": "Chain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "becupzh0i",
+              "metal": "Gold",
+              "certification": "Fairmined"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Rio Grande",
       "website": "www.riogrande.com",
       "description": "**Trade and Retail**\n\nSome gold and silver products are certified via Responsible Jewelry Council provenance claim. Recycling symbol next to some items. ",
