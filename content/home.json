@@ -119,6 +119,12 @@
           "materials": [
             {
               "name": "Add material",
+              "id": "dpz83e7ti",
+              "metal": "Silver",
+              "certification": "Fairmined"
+            },
+            {
+              "name": "Add material",
               "id": "s1ppdsfia",
               "metal": "Gold",
               "certification": "Fairmined"
