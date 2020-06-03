@@ -5,8 +5,23 @@
     {
       "name": "Umicore",
       "website": "https://jim-ca.umicore.com/",
-      "description": "",
-      "id": "yyvts7j62"
+      "description": "### **Trade Only**\n\n### About Recycled Products\n\nRecycled products sold under own brand name \"Butterfly\" and are certified recycled by SCS.",
+      "id": "yyvts7j62",
+      "recycledProducts": [
+        {
+          "name": "Add Product",
+          "id": "0ygsak322",
+          "productName": "Casting Grain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "oa9r7m1xr",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Fairsources",
