@@ -114,6 +114,19 @@
       "artisanalProducts": [
         {
           "name": "Add Product",
+          "id": "fskwh7ot2",
+          "productName": "Wire",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "z0ks7bua9",
+              "metal": "Gold",
+              "certification": "Fairtrade"
+            }
+          ]
+        },
+        {
+          "name": "Add Product",
           "id": "26vb9dvzp",
           "productName": "Casting Grain",
           "materials": [
