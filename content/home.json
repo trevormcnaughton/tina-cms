@@ -41,6 +41,12 @@
           "materials": [
             {
               "name": "Add material",
+              "id": "sijghoz9y",
+              "metal": "Silver",
+              "certification": "Third-Party Certified"
+            },
+            {
+              "name": "Add material",
               "id": "3nssx7ps6",
               "metal": "Gold",
               "certification": "Third-Party Certified"
