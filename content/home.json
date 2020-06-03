@@ -3,6 +3,27 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
+      "name": "San Diego Refining",
+      "website": "http://www.sandiegorefining.com/index.html",
+      "description": "**Trade only**",
+      "id": "7mfy8sfkd",
+      "recycledProducts": [
+        {
+          "name": "Add Product",
+          "id": "qvbsjemrs",
+          "productName": "Casting Grain",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "q0v9vvb1d",
+              "metal": "Gold",
+              "certification": "Company Claim"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Riva Manufacturing",
       "website": "https://rivaprecision.com/",
       "description": "**Trade only**",
