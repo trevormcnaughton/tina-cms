@@ -32,35 +32,16 @@
     {
       "name": "Hoover & Strong",
       "website": "https://www.hooverandstrong.com/",
-      "description": "**NOTE:** List of specific findings that are not made in house and are not certified recycled: [View List](https://www.hooverandstrong.com/non-recycled-items/)\n\n**Trade only **\n\n_Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label._",
+      "description": "**Trade only** \n\n### Recycled Products\n\nIn general, products made in house are SCS certified recycled. These products are sold under the label \"Harmony\" and include a Harmony symbol next to the listings.  \n\n**NOTE:** There is a list of specific findings that are not made in house and are not certified recycled: [View List](https://www.hooverandstrong.com/non-recycled-items/) This list does not appear to be complete as all chains sold by H&S are not produced in house and therefore not certified recycled/Harmony. These items do have a symbol next to them which looks like the Harmony symbol but crossed out in red. \n\n### [Artisanal Products](https://www.hooverandstrong.com/artisanal)\n\nSold under their own label of \"Harmony Artisanal\" includes Fairmined, Fairtrade, and [Harmony Fair Congo]() (Hoover and Strong's own initiative of \"fully traceable, conflict-free artisanal gold from the Democratic Republic of Congo (DRC)\")",
       "recycledProducts": [
         {
           "name": "Add Product",
-          "id": "feglskpyi",
-          "item": [
-            {
-              "materials": [
-                {
-                  "name": "Add material",
-                  "id": "118ur9uw3",
-                  "metal": "Palladium",
-                  "certification": "Third-Party Certified"
-                }
-              ],
-              "productName": "Sheet"
-            }
-          ],
-          "productName": "Chain",
+          "id": "iwqjdlwln",
+          "productName": "Findings",
           "materials": [
             {
               "name": "Add material",
-              "id": "ahu7moqsq",
-              "metal": "Silver",
-              "certification": "Third-Party Certified"
-            },
-            {
-              "name": "Add material",
-              "id": "69mx17qzs",
+              "id": "7tdi8qmg9",
               "metal": "Gold",
               "certification": "Third-Party Certified"
             }
