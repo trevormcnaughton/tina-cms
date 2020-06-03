@@ -10,18 +10,12 @@
       "artisanalProducts": [
         {
           "name": "Add Product",
-          "id": "hyxh9khzm",
-          "productName": "Wire",
+          "id": "h43tcjygl",
+          "productName": "Casting Grain",
           "materials": [
             {
               "name": "Add material",
-              "id": "gn9e9dptq",
-              "metal": "Gold",
-              "certification": "Fairmined"
-            },
-            {
-              "name": "Add material",
-              "id": "jvkq81qvh",
+              "id": "49ja370pz",
               "metal": "Gold",
               "certification": "Fairtrade"
             }
