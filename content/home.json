@@ -36,6 +36,19 @@
       "recycledProducts": [
         {
           "name": "Add Product",
+          "id": "g36r7hhos",
+          "productName": "Wire",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "tkc5d0jlb",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
+          ]
+        },
+        {
+          "name": "Add Product",
           "id": "aux8lfgwu",
           "productName": "Sheet",
           "materials": [
