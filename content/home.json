@@ -36,6 +36,19 @@
       "recycledProducts": [
         {
           "name": "Add Product",
+          "id": "13yb4g081",
+          "productName": "Tubing",
+          "materials": [
+            {
+              "name": "Add material",
+              "id": "3nssx7ps6",
+              "metal": "Gold",
+              "certification": "Third-Party Certified"
+            }
+          ]
+        },
+        {
+          "name": "Add Product",
           "id": "g36r7hhos",
           "productName": "Wire",
           "materials": [
