@@ -119,6 +119,12 @@
           "materials": [
             {
               "name": "Add material",
+              "id": "r2dsjgqmz",
+              "metal": "Gold",
+              "certification": "Fairmined"
+            },
+            {
+              "name": "Add material",
               "id": "z0ks7bua9",
               "metal": "Gold",
               "certification": "Fairtrade"
