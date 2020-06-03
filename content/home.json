@@ -3,6 +3,12 @@
   "description": "It's the project that is cool.",
   "suppliers": [
     {
+      "name": "Stuller",
+      "website": "https://www.stuller.com/",
+      "description": "### **Trade only**\n\n### About Recycled Products",
+      "id": "flq2yxy1b"
+    },
+    {
       "name": "San Diego Refining",
       "website": "http://www.sandiegorefining.com/index.html",
       "description": "**Trade only**",
