@@ -5,7 +5,7 @@
     {
       "name": "Fairsources",
       "website": "http://fairsources.com/",
-      "description": " Fairtrade & Fairmined certification\n\n**Trade Only**",
+      "description": "**Trade Only**",
       "id": "scl2b10z0",
       "artisanalProducts": [
         {
@@ -30,16 +30,9 @@
       ]
     },
     {
-      "name": "Stuller",
-      "website": "stuller.com",
-      "description": "Stuller has some good stuff",
-      "id": "cob7apb50",
-      "recycledProducts": []
-    },
-    {
       "name": "Hoover & Strong",
       "website": "https://www.hooverandstrong.com/",
-      "description": "**NOTE:** List of specific findings that are not made in house and are not certified recycled: [View List](https://www.hooverandstrong.com/non-recycled-items/)\n\n_Trade only Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label._",
+      "description": "**NOTE:** List of specific findings that are not made in house and are not certified recycled: [View List](https://www.hooverandstrong.com/non-recycled-items/)\n\n**Trade only **\n\n_Fairmined, Fair Trade, Fair Congo, sold under their own label of \"Harmony Artisanal\" SCS Certified Recycled products are sold under \"Harmony\" label._",
       "recycledProducts": [
         {
           "name": "Add Product",
